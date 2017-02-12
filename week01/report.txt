@@ -1,0 +1,6 @@
+Git command
+
+- git add .
+- git commit -m "command"
+- git pull
+- git push
