@@ -1,0 +1,22 @@
+total 76
+drwxr-xr-x 18 ramadhana.ibnu StafCS 4096 Feb 12 10:54 .
+drwx--x--x  3 ramadhana.ibnu StafCS 4096 Feb 12 10:32 ..
+drwxr-xr-x  8 ramadhana.ibnu StafCS 4096 Feb 12 10:34 .git
+-rw-r--r--  1 ramadhana.ibnu StafCS    7 Feb 12 09:52 README.md
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 key
+-rw-r--r--  1 ramadhana.ibnu StafCS    0 Feb 12 10:54 lab01.txt
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 log
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 10:24 sandbox
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 10:32 week00
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:55 week01
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:55 week02
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week03
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week04
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week05
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week06
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week07
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week08
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week09
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 week10
+drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 xtra
+/home/fasilkom/mahasiswa/r/ramadhana.ibnu/os171/week01
