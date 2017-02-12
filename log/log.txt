@@ -1,3 +1,4 @@
 # Log Activity
 
 w00-170212-11-PS-About: GITHUB Learning
+w01-170212-12-PS-About: Completing week task 1
