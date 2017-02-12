@@ -20,3 +20,4 @@ drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:56 week09
 drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 week10
 drwxr-xr-x  2 ramadhana.ibnu StafCS 4096 Feb 12 09:57 xtra
 /home/fasilkom/mahasiswa/r/ramadhana.ibnu/os171/week01
+Today is 12 Feb 2017 at 11:24:13
