@@ -1,0 +1,5 @@
+Short Guide Using Text Editor vi
+- press i before you write
+- press ctrl+c when finished
+- press :wq to save your change and exit
+- press :q to quit without save add ! if the file read only
