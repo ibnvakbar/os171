@@ -1,0 +1,64 @@
+Wed Sep 14 08:56:10 WIB 2016
+============================
+
+# [IF IN DOUBT DELETE THE ".gnupg" DIRECTORY AND START AGAIN]
+
+# create a folder in your home directory eg. "work/"
+% mkdir work 
+
+# create folder "work02/" inside "work/".
+% mkdir work/work02 
+
+# enter "work02/"
+% cd work/work02/
+
+# (win)scp "00-toc.txt" (this file) and "01-public-osteam.txt" into here.
+# initial listing
+% ls -al > 02-ls-al.txt
+
+# Generate a gnupg pair key/RSA&RSA 4096 bits/do not forget your passphrase
+# Real name: github_account
+# Email address: github_account@localhost
+# Comment: choose-your-initial
+% gpg --gen-key 
+
+# List Keys I  "03-list-keys1.txt"
+% gpg --list-keys | tee 03-list-keys1.txt
+% cat 03-list-keys1.txt
+
+# Import osteam public key
+% gpg --import < 01-public-osteam.txt
+
+# List Keys II  "04-list-keys2.txt"
+% gpg --list-keys | tee 04-list-keys2.txt
+% cat 04-list-keys2.txt
+
+# Export Your Key
+% gpg --export --armor > 05-mypublickey1.txt
+
+# SHA1SUM files inside work02
+% sha1sum 0*.txt > SHA1SUM
+% cat SHA1SUM
+
+# Verify SHA1SUM
+% sha1sum -c SHA1SUM
+
+# Sign SHA1SUM
+% gpg --sign --armor --detach SHA1SUM 
+
+# Verify Signature
+% gpg --verify SHA1SUM.asc
+
+# Create a tar ball
+% cd ..
+% tar cfj work02.tbj work02/
+
+# Encrypt
+% gpg --output work02.tbj.gpg --encrypt --recipient OSTEAM work02.tbj
+
+# Submit (copy) work02.tbj.gpg to os162/week02/
+# Submit (copy) 05-mypublickey1.txt to os162/week00/
+# PUSH to github
+# Keep work02.tbj in work
+# PS: Whenever using a new key set, submit the public key with a new name
+# to os162/week00/.  Eg: 05-mypublickey2.txt, etc.

@@ -1,0 +1,6 @@
+total 16
+drwxr-xr-x 2 ramadhana.ibnu StafCS 4096 Feb 19 22:46 .
+drwxr-xr-x 4 ramadhana.ibnu StafCS 4096 Feb 19 22:44 ..
+-rw-r--r-- 1 ramadhana.ibnu StafCS 1623 Feb 19 22:45 00-toc.txt
+-rw-r--r-- 1 ramadhana.ibnu StafCS 3158 Feb 19 22:45 01-public-osteam.txt
+-rw-r--r-- 1 ramadhana.ibnu StafCS    0 Feb 19 22:46 02-ls-al.txt
